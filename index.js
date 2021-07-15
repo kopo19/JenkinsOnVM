@@ -6,7 +6,7 @@ var server = http.createServer(app);
 app.get('/', function(req, res){
     res.send('I like JuHyeun!');
 });
-
+ 
 app.get('/start', function(req, res){
     res.send('start page!');
 });
